@@ -16,7 +16,7 @@ source /cvmfs/cms.cern.ch/cmsset_default.sh
 mkdir hats2020
 cmsrel CMSSW_11_1_0_pre5
 cd CMSSW_11_1_0_pre5/src
-git clone https://github.com/gouskos/HATS2020_HRT.git .
+git clone https://github.com/gouskos/HATS2020_HRT.git HATS2020HRT
 
 scram b -j 8
 
