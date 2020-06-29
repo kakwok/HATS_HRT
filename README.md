@@ -62,6 +62,8 @@ voms-proxy-init -voms cms -valid 192:00
 #### Checkout the code
 Open up a terminal and run the following command from your home area:
 ```bash
+mkdir hats2020_hrt
+cd hats2020_hrt/
 wget https://raw.githubusercontent.com/gouskos/HATS2020_HRT/master/setup-libraries.ipynb
 ```
 
