@@ -3,7 +3,7 @@
 
 The tutorial is heavily based on the jet tagging tools and framework/files 
 produced for the BoostedJet Tagging paper [JME-18-002](http://cms.cern.ch/iCMS/analysisadmin/viewanalysis?id=2101&field=id&value=2101&name=Heavy%20jet%20tagging%20algorithms%20in%2013%20TeV%20data%20(2016%20dataset)) and the corresponding HATS
-exercise in [2019](https://github.com/jmduarte/NanoHRTHATS/blob/master/README.md)
+exercise in [2020](https://github.com/gouskos/HATS2020_HRT/blob/master/README.md)
 
 ## Setup on LPC
 To run on LPC, log in via:
@@ -13,10 +13,10 @@ ssh -L localhost:9999:localhost:9999 username@cmslpc-sl7.fnal.gov
 and setup CMSSW:
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
-mkdir hats2020
+mkdir hats2021
 cmsrel CMSSW_11_1_0_pre5
 cd CMSSW_11_1_0_pre5/src
-git clone https://github.com/gouskos/HATS2020_HRT.git HATS2020HRT
+git clone https://github.com/cms-jet/HATS_HRT.git HATS2021HRT -b HATS2021
 
 scram b -j 8
 
