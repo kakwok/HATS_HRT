@@ -1,5 +1,5 @@
 # Heavy resonance tagging (HRT) Hands-on Advanced Tutorial Session (HATS)
-# FNAL-LPC 2020
+# FNAL-LPC 2021
 
 The tutorial is heavily based on the jet tagging tools and framework/files 
 produced for the BoostedJet Tagging paper [JME-18-002](http://cms.cern.ch/iCMS/analysisadmin/viewanalysis?id=2101&field=id&value=2101&name=Heavy%20jet%20tagging%20algorithms%20in%2013%20TeV%20data%20(2016%20dataset)) and the corresponding HATS
