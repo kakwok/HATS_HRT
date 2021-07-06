@@ -64,7 +64,7 @@ Open up a terminal and run the following command from your home area:
 ```bash
 mkdir hats2021_hrt
 cd hats2021_hrt/
-wget https://raw.githubusercontent.com/cms-jet/HATS2021_HRT/HATS2021/setup-libraries.ipynb
+wget https://raw.githubusercontent.com/cms-jet/HATS_HRT/HATS2021/setup-libraries.ipynb
 ```
 
 
