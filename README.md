@@ -72,4 +72,4 @@ Go back to your Jupyter browser (Home) page and open/run(double-click) the newly
 
 
 ## Exercise
-Run the notebook [taggerComp.ipynb](taggerComp.py)
+Run the notebook [taggerComp.py](taggerComp.ipynb)
