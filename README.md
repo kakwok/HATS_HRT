@@ -1,9 +1,13 @@
-# Heavy resonance tagging (HRT) Hands-on Advanced Tutorial Session (HATS)
-# FNAL-LPC 2021
+# Heavy resonance tagging (HRT)
+# CMS DAS 2022
 
-The tutorial is heavily based on the jet tagging tools and framework/files 
-produced for the BoostedJet Tagging paper [JME-18-002](http://cms.cern.ch/iCMS/analysisadmin/viewanalysis?id=2101&field=id&value=2101&name=Heavy%20jet%20tagging%20algorithms%20in%2013%20TeV%20data%20(2016%20dataset)) and the corresponding HATS
-exercise in [2020](https://github.com/gouskos/HATS2020_HRT/blob/master/README.md)
+The tutorial is heavily based on the jet tagging tools and framework/files.
+
+Produced for the BoostedJet Tagging paper [JME-18-002](http://cms.cern.ch/iCMS/analysisadmin/viewanalysis?id=2101&field=id&value=2101&name=Heavy%20jet%20tagging%20algorithms%20in%2013%20TeV%20data%20(2016%20dataset)) and the corresponding HATS.
+
+HATS exercise in [2021](https://github.com/cms-jet/HATS_HRT/tree/HATS2021)
+
+HATS exercise in [2020](https://github.com/gouskos/HATS2020_HRT/blob/master/README.md)
 
 ## Setup on LPC
 To run on LPC, log in via:
@@ -13,10 +17,10 @@ ssh -L localhost:9999:localhost:9999 username@cmslpc-sl7.fnal.gov
 and setup CMSSW:
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
-mkdir hats2021
+mkdir das2022
 cmsrel CMSSW_11_1_0_pre5
 cd CMSSW_11_1_0_pre5/src
-git clone https://github.com/cms-jet/HATS_HRT.git HATS2021HRT -b HATS2021
+git clone https://github.com/cms-jet/HATS_HRT.git DAS2022HRT -b DAS2022
 
 scram b -j 8
 
@@ -62,9 +66,9 @@ voms-proxy-init -voms cms -valid 192:00
 #### Checkout the code
 Open up a terminal and run the following command from your home area:
 ```bash
-mkdir hats2021_hrt
-cd hats2021_hrt/
-wget https://raw.githubusercontent.com/cms-jet/HATS_HRT/HATS2021/setup-libraries.ipynb
+mkdir das2022_hrt
+cd das2022_hrt
+wget https://raw.githubusercontent.com/cms-jet/HATS_HRT/DAS2022/setup-libraries.ipynb
 ```
 
 
