@@ -18,12 +18,13 @@ and setup CMSSW:
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 mkdir das2022
+cd das2022
 cmsrel CMSSW_11_1_0_pre5
 cd CMSSW_11_1_0_pre5/src
 git clone https://github.com/cms-jet/HATS_HRT.git DAS2022HRT -b DAS2022
-
+cmsenv
 scram b -j 8
-
+cmsenv
 voms-proxy-init -voms cms -valid 192:00
 ```
 
