@@ -17,8 +17,8 @@ ssh -L localhost:9999:localhost:9999 username@cmslpc-sl7.fnal.gov
 and setup CMSSW:
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
-mkdir das2022
-cd das2022
+mkdir das2022_hrt
+cd das2022_hrt
 cmsrel CMSSW_11_1_0_pre5
 cd CMSSW_11_1_0_pre5/src
 git clone https://github.com/cms-jet/HATS_HRT.git DAS2022HRT -b DAS2022
