@@ -1,5 +1,5 @@
 # Heavy resonance tagging (HRT)
-# CMS DAS 2022
+# CMS DAS 2023
 
 The tutorial is heavily based on the jet tagging tools and framework/files.
 
