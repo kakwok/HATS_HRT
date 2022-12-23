@@ -5,25 +5,27 @@ The tutorial is heavily based on the jet tagging tools and framework/files.
 
 Produced for the BoostedJet Tagging paper [JME-18-002](http://cms.cern.ch/iCMS/analysisadmin/viewanalysis?id=2101&field=id&value=2101&name=Heavy%20jet%20tagging%20algorithms%20in%2013%20TeV%20data%20(2016%20dataset)) and the corresponding HATS.
 
+DAS exercise in [2022](https://github.com/cms-jet/HATS_HRT/tree/DAS2022)
+
 HATS exercise in [2021](https://github.com/cms-jet/HATS_HRT/tree/HATS2021)
 
 HATS exercise in [2020](https://github.com/gouskos/HATS2020_HRT/blob/master/README.md)
 
 ## Setup on LPC
-To run on LPC, log in via:
+To run on LPC, log in via the command below (**note**: replace `username` with your `FNAL` username!).
 ```bash
 ssh -L localhost:9999:localhost:9999 username@cmslpc-sl7.fnal.gov
 ```
 and setup CMSSW:
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
-mkdir das2022_hrt
-cd das2022_hrt
+mkdir das2023_hrt
+cd das2023_hrt
 cmsrel CMSSW_11_1_0_pre5
 cd CMSSW_11_1_0_pre5/src
-git clone https://github.com/cms-jet/HATS_HRT.git DAS2022HRT -b DAS2022
+git clone https://github.com/IreneZoi/HATS_HRT.git DAS2023HRT -b DAS2023
 cmsenv
-scram b -j 8
+scram b -j 4
 cmsenv
 voms-proxy-init -voms cms -valid 192:00
 ```
@@ -67,9 +69,9 @@ voms-proxy-init -voms cms -valid 192:00
 #### Checkout the code
 Open up a terminal and run the following command from your home area:
 ```bash
-mkdir das2022_hrt
-cd das2022_hrt
-wget https://raw.githubusercontent.com/cms-jet/HATS_HRT/DAS2022/setup-libraries.ipynb
+mkdir das2023_hrt
+cd das2023_hrt
+wget https://raw.githubusercontent.com/IreneZoi/HATS_HRT/DAS2023/setup-libraries.ipynb
 ```
 
 
