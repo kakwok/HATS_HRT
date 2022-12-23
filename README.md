@@ -44,7 +44,7 @@ The two most important buttons are
   * The `new` button, which lets you open a terminal or start a new Jupyter notebook.
   * The `control panel` button, which lets you shut down your notebook once you're done. It's helpful to do this to free up resources for other users.
 
-#### Upload Grid Certificates
+#### Upload Grid Certificates - first time only!
 We will copy your grid certificates from the LPC cluster, to do this, open the front page (shown above), and click the `New` box at the top right, then the `Terminal` option.
 
 This will open a new tab with a bash terminal. Execute the following commands (following the appropriate prompts) to copy your certificate from the LPC to Jupyter (**note**: replace `username` with your `FNAL` username!)
