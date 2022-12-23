@@ -79,4 +79,4 @@ Go back to your Jupyter browser (Home) page and open/run(double-click) the newly
 
 
 ## Exercise
-Run the notebook [taggerComp.py](taggerComp.ipynb)
+Run the notebook [taggerComp.py](taggerComp.ipynb) in `das2023_hrt/CMSSW_11_1_0_pre5/src/DAS2023HRT`
