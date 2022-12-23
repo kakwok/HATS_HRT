@@ -18,7 +18,7 @@ ssh -L localhost:9999:localhost:9999 username@cmslpc-sl7.fnal.gov
 ```
 and setup CMSSW:
 ```bash
-source /cvmfs/cms.cern.ch/cmsset_default.sh
+# source /cvmfs/cms.cern.ch/cmsset_default.sh # this should be in your bash profile
 mkdir das2023_hrt
 cd das2023_hrt
 cmsrel CMSSW_11_1_0_pre5
