@@ -1,9 +1,12 @@
 # Heavy resonance tagging (HRT)
 # CMS DAS 2023
 
+Repository for the Heavy Resonance Tagging exercise for CMSDAS@LPC2023 - https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2023TaggingExercise
+
 The tutorial is heavily based on the jet tagging tools and framework/files.
 
 Produced for the BoostedJet Tagging paper [JME-18-002](http://cms.cern.ch/iCMS/analysisadmin/viewanalysis?id=2101&field=id&value=2101&name=Heavy%20jet%20tagging%20algorithms%20in%2013%20TeV%20data%20(2016%20dataset)) and the corresponding HATS.
+
 
 DAS exercise in [2022](https://github.com/cms-jet/HATS_HRT/tree/DAS2022)
 
