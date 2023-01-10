@@ -14,30 +14,6 @@ HATS exercise in [2021](https://github.com/cms-jet/HATS_HRT/tree/HATS2021)
 
 HATS exercise in [2020](https://github.com/gouskos/HATS2020_HRT/blob/master/README.md)
 
-## Setup on LPC
-To run on LPC, log in via the command below (**note**: replace `username` with your `FNAL` username!).
-```bash
-ssh -L localhost:9999:localhost:9999 username@cmslpc-sl7.fnal.gov
-```
-and setup CMSSW:
-```bash
-# source /cvmfs/cms.cern.ch/cmsset_default.sh # this should be in your bash profile
-mkdir das2023_hrt
-cd das2023_hrt
-cmsrel CMSSW_11_1_0_pre5
-cd CMSSW_11_1_0_pre5/src
-git clone https://github.com/IreneZoi/HATS_HRT.git DAS2023HRT -b DAS2023
-cmsenv
-scram b -j 4
-cmsenv
-voms-proxy-init -voms cms -valid 192:00
-```
-
-Then run the notebook
-```bash
-jupyter notebook --port 9999 --ip 127.0.0.1 --no-browser
-```
-
 Two, very similar, options are available to run the jupyter notebook: Vanderbilt anf FNAL EAF.
 
 ## Setup on Vanderbilt
@@ -126,3 +102,28 @@ On the left you should see the `das2023_hrt` directory you created. Double click
 
 ## Exercise
 Run the notebook [taggerComp.py](taggerComp.ipynb) in `das2023_hrt/CMSSW_11_1_0_pre5/src/DAS2023HRT`. Be sure to select the `nanohrt-hats` kernel.
+
+## Setup on LPC
+To run on LPC, log in via the command below (**note**: replace `username` with your `FNAL` username!).
+```bash
+ssh -L localhost:9999:localhost:9999 username@cmslpc-sl7.fnal.gov
+```
+and setup CMSSW:
+```bash
+# source /cvmfs/cms.cern.ch/cmsset_default.sh # this should be in your bash profile
+mkdir das2023_hrt
+cd das2023_hrt
+cmsrel CMSSW_11_1_0_pre5
+cd CMSSW_11_1_0_pre5/src
+git clone https://github.com/IreneZoi/HATS_HRT.git DAS2023HRT -b DAS2023
+cmsenv
+scram b -j 4
+cmsenv
+voms-proxy-init -voms cms -valid 192:00
+```
+
+Then run the notebook
+```bash
+jupyter notebook --port 9999 --ip 127.0.0.1 --no-browser
+```
+
